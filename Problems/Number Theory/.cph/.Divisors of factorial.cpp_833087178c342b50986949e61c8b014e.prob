@@ -1,0 +1,1 @@
+{"name":"Local: Divisors of factorial","url":"f:\\youknowwho\\Problems\\Divisors of factorial.cpp","tests":[{"id":1759170618179,"input":"3\n2\n3\n50000\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\youknowwho\\Problems\\Divisors of factorial.cpp","group":"local","local":true}

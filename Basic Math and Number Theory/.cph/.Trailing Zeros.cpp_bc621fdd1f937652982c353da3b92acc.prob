@@ -1,0 +1,1 @@
+{"name":"Local: Trailing Zeros","url":"f:\\youknowwho\\Basic Math and Number Theory\\Trailing Zeros.cpp","tests":[{"id":1759587769777,"input":"5\n5\n10\n15\n20\n125","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\youknowwho\\Basic Math and Number Theory\\Trailing Zeros.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: How Many bases","url":"f:\\youknowwho\\Problems\\Basic Math and Number Theory\\How Many bases.cpp","tests":[{"id":1760609899611,"input":"24 1 1\n100 200 10\n23 18 2\n0 0 0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\youknowwho\\Problems\\Basic Math and Number Theory\\How Many bases.cpp","group":"local","local":true}

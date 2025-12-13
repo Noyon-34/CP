@@ -1,0 +1,1 @@
+{"name":"Local: Euler_totient_coprimes","url":"f:\\Seriousness\\Euler_totient_coprimes.cpp","tests":[{"id":1758565963269,"input":"5\n1\n2\n3\n4\n1000000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\Seriousness\\Euler_totient_coprimes.cpp","group":"local","local":true}
