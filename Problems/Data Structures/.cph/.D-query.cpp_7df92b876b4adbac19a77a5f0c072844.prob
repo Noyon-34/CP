@@ -1,1 +1,0 @@
-{"name":"Local: D-query","url":"f:\\youknowwho\\Problems\\Data Structures\\D-query.cpp","tests":[{"id":1764260790146,"input":"5\n1 1 2 1 3\n3\n1 5\n2 4\n3 5\n\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"f:\\youknowwho\\Problems\\Data Structures\\D-query.cpp","group":"local","local":true}
