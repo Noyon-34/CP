@@ -49,26 +49,19 @@ void solve(int cs) {
     	return;
     }
 
-    set<int> s;
+    int avg = sum / n;
     for(int u = 1; u <= n; u++) {
     	if(!vis[u]) {
     		total_money = total_per = 0;
     		dfs(u);
-    		if(total_money % total_per == 0) {
-    			s.insert(total_money % total_per);
-    		}
-    		else {
+    		if(total_money != total_per * avg) {
     			cout << "No\n";
     			return;
     		}
     	}
     }
 
-    if(s.size() == 1) {
-    	cout << "Yes\n";
-    	return;
-    }
-    cout << "No\n";  
+    cout << "Yes\n"; 
 }
 
 int32_t main() {
