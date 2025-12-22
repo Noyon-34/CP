@@ -1,3 +1,6 @@
+// https://vjudge.net/problem/lightoj-1263
+// Solved in 22.12.2025
+
 #include<bits/stdc++.h>
 using namespace std;
 

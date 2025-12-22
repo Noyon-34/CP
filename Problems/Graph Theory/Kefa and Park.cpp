@@ -1,3 +1,6 @@
+// https://codeforces.com/problemset/problem/580/C
+// Solved in 22.12.2025
+
 #include<bits/stdc++.h>
 using namespace std;
 
