@@ -34,7 +34,6 @@ void solve(int cs) {
 	for(int i = 0; i < n; i++) {
 		int x; cin >> x;
 		money.push_back(x);
-		sum += x;
 	}
 
 	while(m--) {
@@ -44,24 +43,24 @@ void solve(int cs) {
 	}
 
     cout << "Case " << cs << ": ";
-    if(sum % n != 0) {
-    	cout << "No\n";
-    	return;
-    }
-
-    int avg = sum / n;
+    set<int> s;
     for(int u = 1; u <= n; u++) {
     	if(!vis[u]) {
     		total_money = total_per = 0;
     		dfs(u);
-    		if(total_money != total_per * avg) {
+    		if(total_money % total_per != 0) {
     			cout << "No\n";
     			return;
     		}
+    		else {
+    			s.insert(total_money / total_per);
+    		}
     	}
     }
-
-    cout << "Yes\n"; 
+    if(s.size() == 1)
+    	cout << "Yes\n";
+    else
+    	cout << "No\n";	
 }
 
 int32_t main() {
