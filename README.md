@@ -30,4 +30,4 @@ I use this repo to:
 - Number Theory
 - Basic Math
 - Data Structures
-- **BFS / DFS** (ongoing)
+- **Graph Theory** (ongoing)
