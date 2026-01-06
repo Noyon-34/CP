@@ -46,9 +46,6 @@ void solve(int cs) {
    		vis[i] = false;
    	}
     auto short2 = bfs(end, n);
-    for(int i = 1; i <= n; i++) {
-   		vis[i] = false;
-   	}
 
     int ans = 0;
     for(int i = 1; i <= n; i++) {
@@ -58,6 +55,7 @@ void solve(int cs) {
     cout << "Case " << cs << ": " << ans << '\n';
 
     for(int i = 1; i <= n; i++) {
+    	vis[i] = false;
     	graph[i].clear();
     }
 }
